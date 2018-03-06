@@ -36,7 +36,18 @@ console.log(greet('Reese'));
  * (there are 6 different data types);
  */
 
+var dataTypes = ["string", 16, true, [1,2,3,4], null, undefined];
+console.log(dataTypes);
+
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+ var dog = {
+	bark: function barks(){
+		return('woof woof');
+	},
+	name: 'Spot',
+ };
+ console.log(dog);
